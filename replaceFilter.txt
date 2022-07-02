@@ -1,0 +1,83 @@
+
+
+filter "**/ch04/task6.tex"
+
+
+replace "\red"
+with "\amp"
+
+replace "\blue"
+with "\bmp"
+
+replace "\textcolor{blue}"
+with "\bmp"
+
+replace "\AA\"
+with "Å"
+
+replace "\AA "
+with "Å"
+
+replace "\O\"
+with "ø"
+
+replace "\O "
+with "ø"
+
+replace "\aa\"
+with "å"
+
+replace "\aa "
+with "å"      
+
+replace "\o\"
+with "ø"
+
+replace "\o "
+with "ø"
+
+replace " \ae\"
+with "æ"
+
+replace "\ae "
+with "æ"     
+
+replace " \AE\"
+with "Æ"
+
+replace "\AE "
+with "Æ"
+
+replace "\bf"
+with "\textbf"
+
+replace " \noi"
+with ""
+
+replace-regex "\n"
+with ""
+
+replace-regex "{\\\bit\b"
+with "\textit{"
+
+replace-regex "\$~+\$"
+with ""
+
+replace-regex "\$~+\\,\$"
+with ""
+
+replace-regex "\\vspace\{[^}]*\}"
+with ""
+
+replace-regex "\\bmp\{[^}]*\}\) \$\\,\$ \\amp\{2\.5\\%\} \$\\,\$"
+with ""
+
+replace-regex "\{\\textbf \\textcolor\{blue\}\{[^}]*\}\}\)"
+with ""
+
+replace-regex "\\hspace\{[^}]*\}"
+with ""
+
+
+
+
