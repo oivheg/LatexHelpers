@@ -1,6 +1,6 @@
 
 
-filter "**/ch04/task6.tex"
+filter "**/ch05/task2.tex"
 
 
 replace "\red"
@@ -54,11 +54,17 @@ with "\textbf"
 replace " \noi"
 with ""
 
+replace "\bea"
+with "\begin{align}"
+
+replace "\eea"
+with "\end{align}"
+
 replace-regex "\n"
 with ""
 
 replace-regex "{\\\bit\b"
-with "\textit{"
+with "\ textit{"
 
 replace-regex "\$~+\$"
 with ""
