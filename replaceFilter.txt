@@ -9,6 +9,9 @@ with "\amp"
 replace "\blue"
 with "\bmp"
 
+replace "\green"
+with "\cmp"
+
 replace "\textcolor{blue}"
 with "\bmp"
 
