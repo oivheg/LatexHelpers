@@ -1,6 +1,6 @@
 
 
-filter "**/ch05/task2.tex"
+filter "**/ch05/task5.tex"
 
 
 replace "\red"
@@ -48,8 +48,8 @@ with "Æ"
 replace "\AE "
 with "Æ"
 
-replace "\bf"
-with "\textbf"
+replace "{\bf"
+with "\textbf{"
 
 replace " \noi"
 with ""
@@ -83,7 +83,6 @@ with ""
 
 replace-regex "\\hspace\{[^}]*\}"
 with ""
-
 
 
 
