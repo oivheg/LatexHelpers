@@ -1,0 +1,42 @@
+
+
+
+
+
+filter "**/ch02/*.tex"
+
+
+//replace "\amp"
+//#with "\bmp"
+
+
+replace "\textcolor{red}"
+with "\bmp"
+
+replace "/overbrace"
+with "\amp"
+
+replace "~"
+with ""
+
+replace "& = &"
+with "& = "
+
+
+replace "\underline{"
+with ""
+
+replace "\textbf"
+with "\amp"
+
+replace "\uuline{"
+with ""
+
+replace "\uline{"
+with ""
+
+
+
+
+
+
